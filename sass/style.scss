@@ -16,8 +16,8 @@
 
 .loader-1{
     opacity: 0.6;
-    -webkit-animation: stop 0.1s linear 3s forwards;
-    animation: stop 0.1s linear 3s forwards;
+    -webkit-animation: stop linear 3s forwards;
+    animation: stop linear 3s forwards;
 }
     .finish{
         position: absolute;
@@ -39,8 +39,8 @@
         border-radius: 100px;
         border: 6px solid transparent;
         border-top-color: $color-primaire;
-        -webkit-animation: spin 1s linear 10 ;
-        animation: spin 1s linear 10 ;
+        -webkit-animation: spin 1s linear;
+        animation: spin 1s linear ;
         
     }
     .loader-circle::after{
@@ -54,8 +54,8 @@
         border: 6px solid transparent;
         border-top-color: $color-secondaire;
         opacity: 0.8s;
-        -webkit-animation: spin 1s linear 5;
-        animation: spin 1s linear 5;
+        -webkit-animation: spin 2s linear ;
+        animation: spin 2s linear;
        
         
     }
@@ -70,8 +70,8 @@
         border: 6px solid transparent;
         border-top-color: $color-tertiaire;
         opacity: 0.5s;
-        -webkit-animation: spin 5s linear 1s;
-        animation: spin 5s linear 1s;
+        -webkit-animation: spin 6s linear ;
+        animation: spin 6s linear;
         
         
     }
