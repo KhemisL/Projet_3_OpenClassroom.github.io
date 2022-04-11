@@ -705,6 +705,9 @@ header .palette-container-img-header .img-enchantee {
 #menu-enchantee .enchantee-menu-titre .container-hearth:hover .icon-regular {
   opacity: 0;
 }
+#menu-enchantee .repas .titre-repas {
+  margin-left: 15px;
+}
 #menu-enchantee .entree {
   width: 100%;
   height: auto;
@@ -719,6 +722,7 @@ header .palette-container-img-header .img-enchantee {
   height: 3px;
   background-color: #99e2d0;
   margin-bottom: 20px;
+  margin-left: 15px;
 }
 #menu-enchantee .btn {
   width: 100%;

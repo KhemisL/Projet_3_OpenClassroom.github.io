@@ -31,6 +31,7 @@ header{
         justify-content: space-between;
         align-items: center;
         margin-bottom: 50px;
+       
         
         h3{
             font-size: 22px;
@@ -73,10 +74,16 @@ header{
 
         
     }
-
+    .repas{
+        .titre-repas{
+            margin-left: 15px;
+           
+        }
+    }
     .entree{
         width: 100%;
         height: auto;
+    
     }
 
     
@@ -90,6 +97,7 @@ header{
         height: 3px;
         background-color: $color-tertiaire;
         margin-bottom: 20px;
+        margin-left: 15px;
     }
     .btn{
         width: 100%;
