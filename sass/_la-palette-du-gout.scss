@@ -5,8 +5,8 @@ body{
 
 .loader-1{
     opacity: 0.6;
-    // -webkit-animation: stop 0.1s linear 3s;
-    // animation: stop 0.1s linear 3s forwards;
+    -webkit-animation: stop  linear 4s;
+     animation: stop 0.1s linear 4s forwards;
     width: 100%;
     
 }
@@ -17,7 +17,8 @@ body{
         display: flex;
         align-items: center;
         justify-content: center;
-        // animation: finish 0.1s linear 3s forwards;
+         animation: finish 0.1s linear 2s forwards;
+         -webkit-animation: finish 0.1s linear 2s forwards;
         z-index: 10000;
         
        
@@ -32,8 +33,8 @@ body{
         border-radius: 100px;
         border: 6px solid transparent;
         border-top-color: $color-primaire;
-        -webkit-animation: spin 1s linear 10 ;
-        animation: spin 1s linear 10 ;
+        -webkit-animation: spin 5s linear  ;
+        animation: spin 5s linear ;
         
     }
     .loader-circle::after{
@@ -63,8 +64,8 @@ body{
         border: 6px solid transparent;
         border-top-color: $color-tertiaire;
         opacity: 0.5s;
-        -webkit-animation: spin 5s linear 1s;
-        animation: spin 5s linear 1s;
+        -webkit-animation: spin 1s linear 5;
+        animation: spin 1s linear 5;
         
         
     }
