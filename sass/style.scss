@@ -303,118 +303,128 @@ header{
 
         
 
-        .container-carte{
-            
-            text-decoration: none;
+        .container-global-carte{
+            background: #fff;
             width: 90%;
             height: 250px;
-            background: #fff;
+            position: relative;
+            margin-bottom: 40px;
             border-radius: 20px;
-            overflow: hidden;
-            margin-bottom: 50px;
-            z-index: 1;
-            cursor: pointer;
-            color: #000;
-            .content-img{
-                width: 100%;
-                height: 160px;
-                border-radius: 20px 20px 0 0;
-                position: relative;
+            .container-carte{
+                text-decoration: none;
+                width: 250px;
+                height: 250px;
+                background: #fff;
+                border-radius: 20px;
                 overflow: hidden;
-                img{
-                    position: relative;
+                margin-bottom: 50px;
+                z-index: 1;
+                cursor: pointer;
+                color: #000;
+                .content-img{
                     width: 100%;
-                    top: -60px;
-                }
-                .img-4{
+                    height: 160px;
+                    border-radius: 20px 20px 0 0;
                     position: relative;
-                    width: 100%;
-                    top: -80px;
-                }
-                .img-3{
-                    position: relative;
-                    width: 100%;
-                    top: -70px;
-                }
-                .img-2{
-                    position: relative;
-                    width: 100%;
-                    top: -160px;
-                }
-                p{
-                    position: absolute;
-                    top: 15px;
-                    right: 15px;
-                    background: $color-tertiaire;
-                    padding: 5px 10px;
-                    border-radius: 2px;
-                    color: green;
-                }
-            }
-
-            .container-information{
-                width: 100%;
-                height: 100px;
-                display: flex;
-                justify-content: space-between;
-                align-items: center;
-                padding: 0px 0 20px 20px;
-               position: relative;
-               z-index: 1000;
-                
-                .content-information{
-
-                    h4{
-                        font-size: 18px;
-                        margin-bottom: 5px;
+                    overflow: hidden;
+                    img{
+                        position: relative;
+                        width: 100%;
+                        top: -60px;
                     }
-
+                    .img-4{
+                        position: relative;
+                        width: 100%;
+                        top: -80px;
+                    }
+                    .img-3{
+                        position: relative;
+                        width: 100%;
+                        top: -70px;
+                    }
+                    .img-2{
+                        position: relative;
+                        width: 100%;
+                        top: -160px;
+                    }
                     p{
-                        font-size: 16px;
+                        position: absolute;
+                        top: 15px;
+                        right: 15px;
+                        background: $color-tertiaire;
+                        padding: 5px 10px;
+                        border-radius: 2px;
+                        color: green;
                     }
+                }
+    
+                .container-information{
+                    width: 100%;
+                    height: 100px;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    padding: 0px 0 20px 20px;
+                   position: relative;
+                   z-index: 1000;
+                    
+                    .content-information{
+    
+                        h4{
+                            font-size: 18px;
+                            margin-bottom: 5px;
+                        }
+    
+                        p{
+                            font-size: 16px;
+                        }
+                        
+                    }
+                   
+                    
+                    
+                    
                     
                 }
-                .container-hearth{
-                    position: absolute;
-                    right: 50px;
-                    top: 40px;
-                    cursor: pointer;
-                    z-index: 1000;
-                    i{
-                        position: absolute;
-                        font-size: 22px;
-                        z-index: 1000;
-                    }
-                }
-                .icon-regular{
-                    position: absolute;
-                    opacity: 1;
-                    transition: 0.5s ease-in;
-                    z-index: 1000;
-                }
-                
-                .icon-solid{
-                    background-image: linear-gradient(168deg, rgba(255, 121, 217, 0.87) 0%, rgba(147,86,220,0.87) 100%);
-                    background-clip: text;
-                    -webkit-background-clip: text;
-                    color: transparent;
-                    transition: 1s ease-in;
-                    opacity: 0;
-                    position: absolute;
-                    z-index: 1000;
-                }
-                .icon-solid:active{
-                    opacity: 1;
-                }
-                .container-hearth:active .icon-regular{
-                    opacity: 0;
-                }
-                
-                
-                
                 
             }
+            .container-hearth{
+                position: absolute;
+                right: 50px;
+                bottom: 60px;
+                cursor: pointer;
+                z-index: 1000;
+                i{
+                    position: absolute;
+                    font-size: 22px;
+                    z-index: 1000;
+                }
+            }
+            .icon-regular{
+                position: absolute;
+                opacity: 1;
+                transition: 0.5s ease-in;
+                z-index: 1000;
+            }
+            
+            .icon-solid{
+                background-image: linear-gradient(168deg, rgba(255, 121, 217, 0.87) 0%, rgba(147,86,220,0.87) 100%);
+                background-clip: text;
+                -webkit-background-clip: text;
+                color: transparent;
+                transition: 1s ease-in;
+                opacity: 0;
+                position: absolute;
+                z-index: 1000;
+            }
+            .icon-solid:hover{
+                opacity: 1;
+            }
+            .container-hearth:hover .icon-regular{
+                opacity: 0;
+            }
         }
+        
     }
 }
 
@@ -585,102 +595,80 @@ footer{
 
     #restaurant{
         .container-global{
-            .container-carte{
-                
+
+            .container-global-carte{
                 width: 65%;
                 height: 270px;
-                .content-img{
-                    width: 100%;
-                    height: 180px;
-                    border-radius: 20px 20px 0 0;
-                    position: relative;
-                    overflow: hidden;
-                    img{
-                        position: relative;
+                .container-carte{
+                
+                    .content-img{
                         width: 100%;
-                        top: -60px;
-                    }
-                    .img-4{
+                        height: 180px;
+                        border-radius: 20px 20px 0 0;
                         position: relative;
-                        width: 100%;
-                        top: -80px;
-                    }
-                    .img-3{
-                        position: relative;
-                        width: 100%;
-                        top: -70px;
-                    }
-                    .img-2{
-                        position: relative;
-                        width: 100%;
-                        top: -160px;
-                    }
-                    p{
-                        position: absolute;
-                        top: 15px;
-                        right: 15px;
-                        background: $color-tertiaire;
-                        padding: 5px 10px;
-                        border-radius: 2px;
-                        color: green;
-                    }
-                }
-    
-                .container-information{
-                    width: 100%;
-                    height: 100px;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    padding: 0px 0 20px 20px;
-                    
-                    .content-information{
-    
-                        h4{
-                            font-size: 20px;
-                            margin-bottom: 5px;
+                        overflow: hidden;
+                        img{
+                            position: relative;
+                            width: 100%;
+                            top: -60px;
                         }
-    
+                        .img-4{
+                            position: relative;
+                            width: 100%;
+                            top: -130px;
+                        }
+                        .img-3{
+                            position: relative;
+                            width: 100%;
+                            top: -125px;
+                        }
+                        .img-2{
+                            position: relative;
+                            width: 100%;
+                            top: -250px;
+                        }
                         p{
-                            font-size: 18px;
+                            position: absolute;
+                            top: 15px;
+                            right: 15px;
+                            background: $color-tertiaire;
+                            padding: 5px 10px;
+                            border-radius: 2px;
+                            color: green;
+                        }
+                    }
+        
+                    .container-information{
+                        width: 100%;
+                        height: 100px;
+                        display: flex;
+                        justify-content: space-between;
+                        align-items: center;
+                        padding: 0px 0 20px 20px;
+                        
+                        .content-information{
+        
+                            h4{
+                                font-size: 20px;
+                                margin-bottom: 5px;
+                            }
+        
+                            p{
+                                font-size: 18px;
+                            }
+                            
                         }
                         
+                        
+                        
+                        
+                        
                     }
-                    .container-hearth{
-                        position: relative;
-                        right: 50px;
-                        top: -15px;
-                        cursor: pointer;
-                        i{
-                            font-size: 24px;
-                        }
-                    }
-                    .icon-regular{
-                        position: absolute;
-                        opacity: 1;
-                        transition: 0.5s ease-in;
-                    }
-                    
-                    .icon-solid{
-                        background-image: linear-gradient(168deg, rgba(255, 121, 217, 0.87) 0%, rgba(147,86,220,0.87) 100%);
-                        background-clip: text;
-                        -webkit-background-clip: text;
-                        color: transparent;
-                        transition: 1s ease-in;
-                        opacity: 0;
-                        position: absolute;
-                    }
-                    .icon-solid:hover{
-                        opacity: 1;
-                    }
-                    .container-hearth:hover .icon-regular{
-                        opacity: 0;
-                    }
-                    
-                    
-                    
-                    
                 }
+            }
+            
+            i{
+                font-size: 25px;
             }
         }
         
@@ -848,106 +836,57 @@ footer{
             .carte-2{
                 margin-top: 100px;
             }
-            .container-carte{
-                
+
+            .container-global-carte{
                 margin-right: 25px;
                 margin-left: 25px;
                 width: 40%;
                 height: 270px;
-              
-                .content-img{
-                    width: 100%;
-                    height: 180px;
-                    border-radius: 20px 20px 0 0;
-                    position: relative;
-                    overflow: hidden;
-                    img{
-                        position: relative;
-                        width: 100%;
-                        top: -60px;
-                    }
-                    .img-4{
-                        position: relative;
-                        width: 100%;
-                        top: -80px;
-                    }
-                    .img-3{
-                        position: relative;
-                        width: 100%;
-                        top: -70px;
-                    }
-                    .img-2{
-                        position: relative;
-                        width: 100%;
-                        top: -160px;
-                    }
-                    p{
-                        position: absolute;
-                        top: 15px;
-                        right: 15px;
-                        background: $color-tertiaire;
-                        padding: 5px 10px;
-                        border-radius: 2px;
-                        color: green;
-                    }
-                }
-    
-                .container-information{
-                    width: 100%;
-                    height: 100px;
-                    display: flex;
-                    justify-content: space-between;
-                    align-items: center;
-                    padding: 0px 0 20px 20px;
+                .container-carte{
+                
                     
-                    .content-information{
-    
-                        h4{
-                            font-size: 20px;
-                            margin-bottom: 5px;
+                  
+                    .content-img{
+                        width: 100%;
+                        height: 180px;
+                        border-radius: 20px 20px 0 0;
+                        position: relative;
+                        overflow: hidden;
+                        img{
+                            position: relative;
+                            width: 100%;
+                            top: -60px;
                         }
-    
+                        .img-4{
+                            position: relative;
+                            width: 100%;
+                            top: -90px;
+                        }
+                        .img-3{
+                            position: relative;
+                            width: 100%;
+                            top: -85px;
+                        }
+                        .img-2{
+                            position: relative;
+                            width: 100%;
+                            top: -205px;
+                        }
                         p{
-                            font-size: 18px;
-                        }
-                        
-                    }
-                    .container-hearth{
-                        position: relative;
-                        right: 50px;
-                        top: -15px;
-                        cursor: pointer;
-                        i{
-                            font-size: 24px;
+                            position: absolute;
+                            top: 15px;
+                            right: 15px;
+                            background: $color-tertiaire;
+                            padding: 5px 10px;
+                            border-radius: 2px;
+                            color: green;
                         }
                     }
-                    .icon-regular{
-                        position: absolute;
-                        opacity: 1;
-                        transition: 0.5s ease-in;
-                    }
-                    
-                    .icon-solid{
-                        background-image: linear-gradient(168deg, rgba(255, 121, 217, 0.87) 0%, rgba(147,86,220,0.87) 100%);
-                        background-clip: text;
-                        -webkit-background-clip: text;
-                        color: transparent;
-                        transition: 1s ease-in;
-                        opacity: 0;
-                        position: absolute;
-                    }
-                    .icon-solid:hover{
-                        opacity: 1;
-                    }
-                    .container-hearth:hover .icon-regular{
-                        opacity: 0;
-                    }
-                    
-                    
-                    
+        
                     
                 }
             }
+            
         }
     }
 }
@@ -1018,46 +957,50 @@ footer{
 
     #restaurant{
         .container-global{
-            .container-carte{
-                width: 32%;
-                height: 310px;
-                .content-img{
-                    width: 100%;
-                    height: 220px;
-                    border-radius: 20px 20px 0 0;
-                    position: relative;
-                    overflow: hidden;
-                    img{
-                        position: relative;
+            .container-global-carte{
+                    width: 34%;
+                    height: 310px;
+                .container-carte{
+                    
+                    .content-img{
                         width: 100%;
-                        top: -120px;
-                    }
-                    .img-4{
+                        height: 220px;
+                        border-radius: 20px 20px 0 0;
                         position: relative;
-                        width: 100%;
-                        top: -160px;
-                    }
-                    .img-3{
-                        position: relative;
-                        width: 100%;
-                        top: -160px;
-                    }
-                    .img-2{
-                        position: relative;
-                        width: 100%;
-                        top: -320px;
-                    }
-                    p{
-                        position: absolute;
-                        top: 15px;
-                        right: 15px;
-                        background: $color-tertiaire;
-                        padding: 5px 10px;
-                        border-radius: 2px;
-                        color: green;
+                        overflow: hidden;
+                        img{
+                            position: relative;
+                            width: 100%;
+                            top: -50px;
+                        }
+                        .img-4{
+                            position: relative;
+                            width: 100%;
+                            top: -100px;
+                        }
+                        .img-3{
+                            position: relative;
+                            width: 100%;
+                            top: -90px;
+                        }
+                        .img-2{
+                            position: relative;
+                            width: 100%;
+                            top: -235px;
+                        }
+                        p{
+                            position: absolute;
+                            top: 15px;
+                            right: 15px;
+                            background: $color-tertiaire;
+                            padding: 5px 10px;
+                            border-radius: 2px;
+                            color: green;
+                        }
                     }
                 }
             }
+            
 
 
             
