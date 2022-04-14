@@ -18,6 +18,7 @@
     opacity: 0.6;
     -webkit-animation: stop linear 4s forwards;
     animation: stop linear 4s forwards;
+    z-index: 1000;
 }
     .finish{
         position: absolute;
@@ -88,11 +89,12 @@
     }
     @keyframes stop {
         0%{
+            pointer-events: none;
             opacity: 0.6;
         }
         100%{
             opacity: 1;
-            z-index: -10;
+           
         }
     }
 
@@ -212,6 +214,9 @@ header{
     justify-content: center;
     align-items: center;
     margin: 60px 0;
+    z-index: -1;
+    background: #fff;
+    padding-top: 20px;
 
     h3{
         align-self: flex-start;
@@ -241,7 +246,7 @@ header{
             margin-bottom: 30px;
             transition: 0.2s ease-in;
             cursor: pointer;
-                &:active{
+                &:hover{
                     background: #9256dc11;
                     box-shadow: 5px 4px 5px 0px #8b8a8a;
                 }
@@ -269,7 +274,7 @@ header{
             }
             
         }
-        .content-carte-presentation:active i{
+        .content-carte-presentation:hover i{
             color: $color-primaire;
         }
 
@@ -287,6 +292,7 @@ header{
     justify-content: center;
     background: $bg-color-grey;
     padding: 60px 0;
+    z-index: -1;
 
     .container-global{
         width: 100%;
@@ -295,7 +301,6 @@ header{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-
         h3{
             align-self: flex-start;
             font-size: 30px;
@@ -311,6 +316,7 @@ header{
             position: relative;
             margin-bottom: 40px;
             border-radius: 20px;
+            
             .container-carte{
                 text-decoration: none;
                 width: 250px;
@@ -319,7 +325,6 @@ header{
                 border-radius: 20px;
                 overflow: hidden;
                 margin-bottom: 50px;
-                z-index: 1;
                 cursor: pointer;
                 color: #000;
                 .content-img{
@@ -367,7 +372,6 @@ header{
                     align-items: center;
                     padding: 0px 0 20px 20px;
                    position: relative;
-                   z-index: 1000;
                     
                     .content-information{
     
@@ -394,18 +398,17 @@ header{
                 right: 50px;
                 bottom: 60px;
                 cursor: pointer;
-                z-index: 1000;
+
                 i{
                     position: absolute;
                     font-size: 22px;
-                    z-index: 1000;
+
                 }
             }
             .icon-regular{
                 position: absolute;
                 opacity: 1;
                 transition: 0.5s ease-in;
-                z-index: 1000;
             }
             
             .icon-solid{
@@ -416,7 +419,6 @@ header{
                 transition: 1s ease-in;
                 opacity: 0;
                 position: absolute;
-                z-index: 1000;
             }
             .icon-solid:hover{
                 opacity: 1;
@@ -435,7 +437,7 @@ footer{
     padding: 30px;
     background: #333;
     color: #fff;
-
+    z-index: -1;
     h4{
         font-size: 22px;
         font-family: 'Shrikhand', cursive;
@@ -472,7 +474,7 @@ footer{
         form{
             width: 100%;
             height: 60px;
-            z-index: 1;
+            
             position: absolute;
     
             input{
@@ -485,7 +487,7 @@ footer{
                 outline: none;
                 background: #e6e6e6;
                 border: none;
-                z-index: 1;
+                
                 box-shadow: inset 0px 1px 3px 0px rgba(26, 25, 25, 0.445);
                 color: $color-grey;
             }

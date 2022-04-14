@@ -34,7 +34,7 @@ header{
        
         
         h3{
-            font-size: 22px;
+            font-size: 30px;
             font-family: 'Shrikhand', cursive;
             font-weight: 400;
            
@@ -76,7 +76,7 @@ header{
     }
     .repas{
         .titre-repas{
-            margin-left: 15px;
+            margin-left: 0px;
            
         }
     }
@@ -88,7 +88,7 @@ header{
 
     
     h4{
-        font-size: 22px;
+        font-size: 18px;
         font-weight: 400;
         margin-bottom: 5px;
     }
@@ -97,7 +97,7 @@ header{
         height: 3px;
         background-color: $color-tertiaire;
         margin-bottom: 20px;
-        margin-left: 15px;
+        margin-left: 0px;
     }
     .btn{
         width: 100%;
@@ -119,7 +119,7 @@ header{
                 h3{
                     padding-top: 20px;
                     padding-left: 20px;
-                    font-size: 16px;
+                    font-size: 18px;
                     font-weight: 700;
                     margin-bottom: 10px;
                 }
@@ -136,16 +136,16 @@ header{
 
         .content-display-for-animation .validation{
             position: relative;
-            top: -49px;
+            top: -55px;
             right: -76px;
             width: 85px;
-            height: 91px;
+            height: 95px;
             background: $color-tertiaire;
             border-radius: 0 25px 25px 0;
             display: flex;
             justify-content: flex-end;
             align-items: center;
-        
+            padding-right: 5px;
         }
      
         .validation i{
@@ -160,8 +160,8 @@ header{
             display: flex;
         }
         .content-display h4{
-            font-size: 12px;
-            font-weight: 500;
+            font-size: 14px;
+            font-weight: 400;
             margin-right: 15px;
         }
         .content-display p{
@@ -170,39 +170,39 @@ header{
             transition: 0.9s;
         }
         .content-1 h4{
-            margin-right: 30px;
+            margin-right: 0px;
         }
         .content-2 h4{
-            margin-right: 85px;
+            margin-right: 60px;
         }
         .content-3 h4{
-            margin-right: 100px;
+            margin-right: 80px;
         }
         .content-4 h4{
-            margin-right: 70px;
+            margin-right: 45px;
         }
         .content-5 h4{
-            margin-right: 100px;
+            margin-right: 80px;
         }
         .content-6 h4{
-            margin-right: 120px;
+            margin-right: 100px;
         }
         .content-7 h4{
-            margin-right: 65px;
+            margin-right: 32px;
         }
         .content-8 h4{
-            margin-right: 20px;
+            margin-right: 0px;
         }
         .content-9 h4{
-            margin-right: 110px;
+            margin-right: 85px;
         }
         .content-10 h4{
-            margin-right: 170px;
+            margin-right: 165px;
         }
         .content-display p{
             position: relative;
             right: -30px;
-            font-size: 12px;
+            font-size: 14px;
             font-weight: 600;
         }
         .dot{
@@ -220,11 +220,11 @@ header{
         }
         .container:hover .validation{
             
-            transform: translate(-85px);
+            transform: translate(-75px);
         }
         .container:hover p{
             
-            transform: translate(-55px);
+            transform: translate(-45px);
         }
         .container:hover i{
             
