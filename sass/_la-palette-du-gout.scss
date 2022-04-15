@@ -327,7 +327,7 @@ header{
 
         .titre-overflow{
             white-space: nowrap;
-            width: 300px;
+            width: 350px;
             overflow: hidden;
             text-overflow: ellipsis; 
             transition: 0.9s;
@@ -346,11 +346,11 @@ header{
         }
         .container:hover .validation-overflow{
             
-            transform: translate(-45px);
+            transform: translate(-40px);
         }
         .container:hover .validation-change{
             
-            transform: translate(-50px);
+            transform: translate(-55px);
         }
         .container:hover p{
             

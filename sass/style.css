@@ -296,7 +296,7 @@ header .palette-container-img-header img {
 }
 #menu-palette .btn .titre-overflow {
   white-space: nowrap;
-  width: 300px;
+  width: 350px;
   overflow: hidden;
   text-overflow: ellipsis;
   transition: 0.9s;
@@ -312,10 +312,10 @@ header .palette-container-img-header img {
   transform: translate(-75px);
 }
 #menu-palette .btn .container:hover .validation-overflow {
-  transform: translate(-45px);
+  transform: translate(-40px);
 }
 #menu-palette .btn .container:hover .validation-change {
-  transform: translate(-50px);
+  transform: translate(-55px);
 }
 #menu-palette .btn .container:hover p {
   transform: translate(-45px);
@@ -1418,7 +1418,7 @@ header .palette-container-img-header .img-francaise {
   transform: translate(-15px);
 }
 #menu-francaise .btn .container:hover .prix-change {
-  transform: translate(-10px);
+  transform: translate(-20px);
 }
 #menu-francaise .btn .container:hover i {
   transform: translateX(-30px) rotate(-360deg);
@@ -1428,7 +1428,7 @@ header .palette-container-img-header .img-francaise {
 }
 #menu-francaise .btn .content-display .prix-change {
   position: relative;
-  right: -30px;
+  right: -20px;
 }
 #menu-francaise .btn .content-1 {
   animation: aparition 0.8s 0.1s ease-out;
