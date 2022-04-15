@@ -206,26 +206,38 @@ header{
             font-weight: 600;
             transition: 0.9s;
         }
-        .dot{
-            position: absolute;
-            opacity: 0;
-            transition: 1.2s;
+
+        .titre-overflow{
+            white-space: nowrap;
+            width: 350px;
+            overflow: hidden;
+            text-overflow: ellipsis; 
+            transition: 0.9s;
         }
-        .remove{
-            opacity: 1;
-            transition: 0.6s ease-in-out;
+        .overflow{
+            white-space: nowrap;
+            width: 210px;
+            overflow: hidden;
+            text-overflow: ellipsis; 
+            transition: 0.9s;
         }
-        .remove-2{
-            opacity: 1;
-            transition: 0.3s ease-in-out;
-        }
+        
+        
         .container:hover .validation{
             
             transform: translate(-75px);
         }
+        .container:hover .validation-overflow{
+            
+            transform: translate(-45px);
+        }
         .container:hover p{
             
             transform: translate(-45px);
+        }
+        .container:hover .prix-overflow{
+            
+            transform: translate(-15px);
         }
         .container:hover i{
             
@@ -235,14 +247,13 @@ header{
             
             opacity: 1;
         }
-        .container:hover .remove{
-            
-            opacity: 0;
+        .container:hover .overflow{
+            width: 175px;
         }
-        .container:hover .remove-2{
-            
-            opacity: 0;
+        .container:hover .titre-overflow{
+            width: 230px;
         }
+        
         
         
         

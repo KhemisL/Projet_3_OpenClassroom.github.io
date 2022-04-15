@@ -294,36 +294,50 @@ header .palette-container-img-header img {
   font-size: 12px;
   font-weight: 600;
 }
-#menu-palette .btn .dot {
-  position: absolute;
-  opacity: 0;
-  transition: 1.2s ease-out;
+#menu-palette .btn .titre-overflow {
+  white-space: nowrap;
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: 0.9s;
 }
-#menu-palette .btn .remove {
-  opacity: 1;
-  transition: 0.6s ease-in-out;
-}
-#menu-palette .btn .remove-2 {
-  opacity: 1;
-  transition: 0.3s ease-in-out;
+#menu-palette .btn .overflow {
+  white-space: nowrap;
+  width: 260px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: 0.9s;
 }
 #menu-palette .btn .container:hover .validation {
   transform: translate(-75px);
 }
+#menu-palette .btn .container:hover .validation-overflow {
+  transform: translate(-45px);
+}
+#menu-palette .btn .container:hover .validation-change {
+  transform: translate(-50px);
+}
 #menu-palette .btn .container:hover p {
   transform: translate(-45px);
+}
+#menu-palette .btn .container:hover .prix-overflow {
+  transform: translate(-5px);
+}
+#menu-palette .btn .container:hover .prix-change {
+  transform: translate(-5px);
 }
 #menu-palette .btn .container:hover i {
   transform: translateX(-30px) rotate(-360deg);
 }
-#menu-palette .btn .container:hover .dot {
-  opacity: 1;
+#menu-palette .btn .container:hover .overflow {
+  width: 220px;
 }
-#menu-palette .btn .container:hover .remove {
-  opacity: 0;
+#menu-palette .btn .container:hover .titre-overflow {
+  width: 250px;
 }
-#menu-palette .btn .container:hover .remove-2 {
-  opacity: 0;
+#menu-palette .btn .content-display .prix-change {
+  position: relative;
+  right: -13px;
 }
 #menu-palette .btn .content-1 {
   animation: aparition 0.8s 0.1s ease-out;
@@ -824,36 +838,53 @@ header .palette-container-img-header .img-enchantee {
   font-size: 14px;
   font-weight: 600;
 }
-#menu-enchantee .btn .dot {
-  position: absolute;
-  opacity: 0;
-  transform: 1.2s;
+#menu-enchantee .btn .titre-overflow {
+  white-space: nowrap;
+  width: 300px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: 0.9s;
 }
-#menu-enchantee .btn .remove {
-  opacity: 1;
-  transition: 0.6s ease-in-out;
+#menu-enchantee .btn .overflow {
+  white-space: nowrap;
+  width: 260px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: 0.9s;
 }
-#menu-enchantee .btn .remove-2 {
-  opacity: 1;
-  transition: 0.3s ease-in-out;
+#menu-enchantee .btn .prix-overflow {
+  position: relative;
 }
 #menu-enchantee .btn .container:hover .validation {
   transform: translate(-75px);
 }
+#menu-enchantee .btn .container:hover .validation-overflow {
+  transform: translate(-45px);
+}
+#menu-enchantee .btn .container:hover .validation-change {
+  transform: translate(-45px);
+}
 #menu-enchantee .btn .container:hover p {
   transform: translate(-45px);
+}
+#menu-enchantee .btn .container:hover .prix-overflow {
+  transform: translate(-15px);
+}
+#menu-enchantee .btn .container:hover .prix-change {
+  transform: translate(-5px);
 }
 #menu-enchantee .btn .container:hover i {
   transform: translateX(-30px) rotate(-360deg);
 }
-#menu-enchantee .btn .container:hover .dot {
-  opacity: 1;
+#menu-enchantee .btn .container:hover .overflow {
+  width: 210px;
 }
-#menu-enchantee .btn .container:hover .remove {
-  opacity: 0;
+#menu-enchantee .btn .container:hover .titre-overflow {
+  width: 250px;
 }
-#menu-enchantee .btn .container:hover .remove-2 {
-  opacity: 0;
+#menu-enchantee .btn .content-display .prix-change {
+  position: relative;
+  right: -15px;
 }
 #menu-enchantee .btn .content-1 {
   animation: aparition 0.8s 0.1s ease-out;
@@ -1174,6 +1205,12 @@ header .palette-container-img-header .img-enchantee {
   #menu-enchantee .btn .container {
     margin-right: 30px;
   }
+  #menu-enchantee .btn .container:hover .validation-overflow {
+    transform: translate(-55px);
+  }
+  #menu-enchantee .btn .container:hover .overflow {
+    width: 220px;
+  }
   #menu-enchantee button {
     margin-top: 50px;
     padding: 17px 60px;
@@ -1353,41 +1390,45 @@ header .palette-container-img-header .img-francaise {
 }
 #menu-francaise .btn .content-display p {
   position: relative;
-  right: -30px;
+  right: -40px;
   font-size: 14px;
   font-weight: 600;
   transition: 0.9s;
 }
-#menu-francaise .btn .dot {
-  position: absolute;
-  opacity: 0;
-  transition: 1.2s ease-out;
-}
-#menu-francaise .btn .remove {
-  opacity: 1;
-  transition: 0.6s ease-in-out;
-}
-#menu-francaise .btn .remove-2 {
-  opacity: 1;
-  transition: 0.3s ease-in-out;
+#menu-francaise .btn .overflow {
+  white-space: nowrap;
+  width: 225px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: 0.9s;
 }
 #menu-francaise .btn .container:hover .validation {
   transform: translate(-75px);
 }
+#menu-francaise .btn .container:hover .validation-overflow {
+  transform: translate(-45px);
+}
+#menu-francaise .btn .container:hover .validation-change {
+  transform: translate(-50px);
+}
 #menu-francaise .btn .container:hover p {
   transform: translate(-45px);
+}
+#menu-francaise .btn .container:hover .prix-overflow {
+  transform: translate(-15px);
+}
+#menu-francaise .btn .container:hover .prix-change {
+  transform: translate(-10px);
 }
 #menu-francaise .btn .container:hover i {
   transform: translateX(-30px) rotate(-360deg);
 }
-#menu-francaise .btn .container:hover .dot {
-  opacity: 1;
+#menu-francaise .btn .container:hover .overflow {
+  width: 190px;
 }
-#menu-francaise .btn .container:hover .remove {
-  opacity: 0;
-}
-#menu-francaise .btn .container:hover .remove-2 {
-  opacity: 0;
+#menu-francaise .btn .content-display .prix-change {
+  position: relative;
+  right: -30px;
 }
 #menu-francaise .btn .content-1 {
   animation: aparition 0.8s 0.1s ease-out;
@@ -1889,24 +1930,31 @@ header .palette-container-img-header .img-delice {
   font-weight: 600;
   transition: 0.9s;
 }
-#menu-delice .btn .dot {
-  position: absolute;
-  opacity: 0;
-  transition: 1.2s;
+#menu-delice .btn .titre-overflow {
+  white-space: nowrap;
+  width: 350px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: 0.9s;
 }
-#menu-delice .btn .remove {
-  opacity: 1;
-  transition: 0.6s ease-in-out;
-}
-#menu-delice .btn .remove-2 {
-  opacity: 1;
-  transition: 0.3s ease-in-out;
+#menu-delice .btn .overflow {
+  white-space: nowrap;
+  width: 210px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: 0.9s;
 }
 #menu-delice .btn .container:hover .validation {
   transform: translate(-75px);
 }
+#menu-delice .btn .container:hover .validation-overflow {
+  transform: translate(-45px);
+}
 #menu-delice .btn .container:hover p {
   transform: translate(-45px);
+}
+#menu-delice .btn .container:hover .prix-overflow {
+  transform: translate(-15px);
 }
 #menu-delice .btn .container:hover i {
   transform: translateX(-30px) rotate(-360deg);
@@ -1914,11 +1962,11 @@ header .palette-container-img-header .img-delice {
 #menu-delice .btn .container:hover .dot {
   opacity: 1;
 }
-#menu-delice .btn .container:hover .remove {
-  opacity: 0;
+#menu-delice .btn .container:hover .overflow {
+  width: 175px;
 }
-#menu-delice .btn .container:hover .remove-2 {
-  opacity: 0;
+#menu-delice .btn .container:hover .titre-overflow {
+  width: 230px;
 }
 #menu-delice .btn .content-1 {
   animation: aparition 0.8s 0.1s ease-out;
