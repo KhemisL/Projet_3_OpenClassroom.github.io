@@ -157,7 +157,7 @@ header{
         margin-bottom: 50px;
         
         h3{
-            font-size: 30px;
+            font-size: 28px;
             font-family: 'Shrikhand', cursive;
             font-weight: 400;
            
@@ -208,12 +208,12 @@ header{
     }
     
     h4{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         margin-bottom: 5px;
     }
     .border-bottom-titre{
-        width: 60px;
+        width: 50px;
         height: 3px;
         background-color: $color-tertiaire;
         margin-bottom: 20px;
@@ -226,7 +226,7 @@ header{
 
             .container{
             width: 355px;
-            height: 85px;
+            height: 75px;
             background: #fff;
             border-radius: 25px;
             margin-bottom: 30px;
@@ -237,7 +237,7 @@ header{
             
 
                 h3{
-                    padding-top: 20px;
+                    padding-top: 15px;
                     padding-left: 20px;
                     font-size: 18px;
                     font-weight: 700;
@@ -526,7 +526,7 @@ header{
 
          .repas{
              h4{
-                 font-size: 25px;
+                 font-size: 22px;
              }
 
              .container{
@@ -545,20 +545,20 @@ header{
                 position: relative;
                 top: -55px;
                 right: -76px;
-                width: 85px;
+                width: 75px;
                 height: 91px;
                 background: $color-tertiaire;
                 border-radius: 0 25px 25px 0;
                 display: flex;
                 justify-content: flex-end;
                 align-items: center;
-                
+                padding-right: 0px;
             }
 
 
 
             .btn{
-
+                
                 .content-1 h4{
                     margin-right: 145px;
                 }

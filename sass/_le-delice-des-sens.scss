@@ -33,7 +33,7 @@ header{
         margin-bottom: 50px;
         
         h3{
-            font-size: 30px;
+            font-size: 28px;
             font-family: 'Shrikhand', cursive;
             font-weight: 400;
            
@@ -78,15 +78,26 @@ header{
         width: 100%;
         height: auto;
     }
-
     
+    .titre-repas{
+        margin-left: 15px;
+    }
+    .border-bottom-titre{
+        margin-left: 15px;
+    }
+    .titre-repas-entree{
+        margin-left: 0px;
+    }
+    .border-entree{
+        margin-left: 0px;
+    }
     h4{
-        font-size: 18px;
+        font-size: 16px;
         font-weight: 400;
         margin-bottom: 5px;
     }
     .border-bottom-titre{
-        width: 60px;
+        width: 50px;
         height: 3px;
         background-color: $color-tertiaire;
         margin-bottom: 20px;
@@ -100,7 +111,7 @@ header{
 
             .container{
             width: 355px;
-            height: 85px;
+            height: 75px;
             background: #fff;
             border-radius: 25px;
             margin-bottom: 30px;
@@ -109,7 +120,7 @@ header{
             box-shadow: 5px 4px 5px 0px #c9c6c6;
 
                 h3{
-                    padding-top: 20px;
+                    padding-top: 15px;
                     padding-left: 20px;
                     font-size: 18px;
                     font-weight: 700;
@@ -210,11 +221,11 @@ header{
         }
         .container:hover .validation{
             
-            transform: translate(-85px);
+            transform: translate(-75px);
         }
         .container:hover p{
             
-            transform: translate(-55px);
+            transform: translate(-45px);
         }
         .container:hover i{
             
@@ -314,7 +325,7 @@ header{
         background: linear-gradient(168deg, #ff79da 0%, #9356dc 100%);
         transition: 0.2s ease-in;
         cursor: pointer;
-        &:active{
+        &:hover{
             background: rgb(255,121,218);
             background: linear-gradient(168deg, rgba(255, 121, 217, 0.87) 0%, rgba(147,86,220,0.87) 100%);
             box-shadow: 5px 4px 5px 0px #8b8a8a;
@@ -399,7 +410,7 @@ header{
          .repas-delice{
              width: 100%;
              h4{
-                 font-size: 25px;
+                 font-size: 22px;
              }
 
              .container{

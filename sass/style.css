@@ -146,7 +146,7 @@ header .palette-container-img-header img {
   margin-bottom: 50px;
 }
 #menu-palette .palette-menu-titre h3 {
-  font-size: 30px;
+  font-size: 28px;
   font-family: "Shrikhand", cursive;
   font-weight: 400;
 }
@@ -188,12 +188,12 @@ header .palette-container-img-header img {
   height: auto;
 }
 #menu-palette h4 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   margin-bottom: 5px;
 }
 #menu-palette .border-bottom-titre {
-  width: 60px;
+  width: 50px;
   height: 3px;
   background-color: #99e2d0;
   margin-bottom: 20px;
@@ -206,7 +206,7 @@ header .palette-container-img-header img {
 }
 #menu-palette .btn .container {
   width: 355px;
-  height: 85px;
+  height: 75px;
   background: #fff;
   border-radius: 25px;
   margin-bottom: 30px;
@@ -215,7 +215,7 @@ header .palette-container-img-header img {
   box-shadow: 5px 4px 5px 0px #c9c6c6;
 }
 #menu-palette .btn .container h3 {
-  padding-top: 20px;
+  padding-top: 15px;
   padding-left: 20px;
   font-size: 18px;
   font-weight: 700;
@@ -445,7 +445,7 @@ header .palette-container-img-header img {
     right: 30px;
   }
   #menu-palette .repas h4 {
-    font-size: 25px;
+    font-size: 22px;
   }
   #menu-palette .repas .container {
     width: 400px;
@@ -463,13 +463,14 @@ header .palette-container-img-header img {
     position: relative;
     top: -55px;
     right: -76px;
-    width: 85px;
+    width: 75px;
     height: 91px;
     background: #99e2d0;
     border-radius: 0 25px 25px 0;
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    padding-right: 0px;
   }
   #menu-palette .repas .btn .content-1 h4 {
     margin-right: 145px;
@@ -673,7 +674,7 @@ header .palette-container-img-header .img-enchantee {
   margin-bottom: 50px;
 }
 #menu-enchantee .enchantee-menu-titre h3 {
-  font-size: 30px;
+  font-size: 28px;
   font-family: "Shrikhand", cursive;
   font-weight: 400;
 }
@@ -707,23 +708,23 @@ header .palette-container-img-header .img-enchantee {
   opacity: 0;
 }
 #menu-enchantee .repas .titre-repas {
-  margin-left: 0px;
+  margin-left: 15px;
 }
 #menu-enchantee .entree {
   width: 100%;
   height: auto;
 }
 #menu-enchantee h4 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   margin-bottom: 5px;
 }
 #menu-enchantee .border-bottom-titre {
-  width: 60px;
+  width: 50px;
   height: 3px;
   background-color: #99e2d0;
   margin-bottom: 20px;
-  margin-left: 0px;
+  margin-left: 15px;
 }
 #menu-enchantee .btn {
   width: 100%;
@@ -733,7 +734,7 @@ header .palette-container-img-header .img-enchantee {
 }
 #menu-enchantee .btn .container {
   width: 355px;
-  height: 85px;
+  height: 75px;
   background: #fff;
   border-radius: 25px;
   margin-bottom: 30px;
@@ -742,7 +743,7 @@ header .palette-container-img-header .img-enchantee {
   box-shadow: 5px 4px 5px 0px #c9c6c6;
 }
 #menu-enchantee .btn .container h3 {
-  padding-top: 20px;
+  padding-top: 15px;
   padding-left: 20px;
   font-size: 18px;
   font-weight: 700;
@@ -914,7 +915,7 @@ header .palette-container-img-header .img-enchantee {
   transition: 0.2s ease-in;
   cursor: pointer;
 }
-#menu-enchantee button:active {
+#menu-enchantee button:hover {
   background: #ff79da;
   background: linear-gradient(168deg, rgba(255, 121, 217, 0.87) 0%, rgba(147, 86, 220, 0.87) 100%);
   box-shadow: 5px 4px 5px 0px #8b8a8a;
@@ -979,7 +980,7 @@ header .palette-container-img-header .img-enchantee {
     width: 100%;
   }
   #menu-enchantee .repas-enchantee h4 {
-    font-size: 25px;
+    font-size: 22px;
   }
   #menu-enchantee .repas-enchantee .container {
     width: 400px;
@@ -1027,7 +1028,7 @@ header .palette-container-img-header .img-enchantee {
     margin-right: 75px;
   }
   #menu-enchantee .repas-enchantee .btn .content-8 h4 {
-    margin-right: 20px;
+    margin-right: 45px;
   }
   #menu-enchantee .repas-enchantee .btn .content-9 h4 {
     margin-right: 125px;
@@ -1170,7 +1171,7 @@ header .palette-container-img-header .img-francaise {
   margin-bottom: 50px;
 }
 #menu-francaise .palette-menu-titre h3 {
-  font-size: 30px;
+  font-size: 28px;
   font-family: "Shrikhand", cursive;
   font-weight: 400;
 }
@@ -1212,12 +1213,12 @@ header .palette-container-img-header .img-francaise {
   height: auto;
 }
 #menu-francaise h4 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   margin-bottom: 5px;
 }
 #menu-francaise .border-bottom-titre {
-  width: 60px;
+  width: 50px;
   height: 3px;
   background-color: #99e2d0;
   margin-bottom: 20px;
@@ -1230,7 +1231,7 @@ header .palette-container-img-header .img-francaise {
 }
 #menu-francaise .btn .container {
   width: 355px;
-  height: 85px;
+  height: 75px;
   background: #fff;
   border-radius: 25px;
   margin-bottom: 30px;
@@ -1239,7 +1240,7 @@ header .palette-container-img-header .img-francaise {
   box-shadow: 5px 4px 5px 0px #c9c6c6;
 }
 #menu-francaise .btn .container h3 {
-  padding-top: 20px;
+  padding-top: 15px;
   padding-left: 20px;
   font-size: 18px;
   font-weight: 700;
@@ -1332,10 +1333,10 @@ header .palette-container-img-header .img-francaise {
   transition: 0.3s ease-in-out;
 }
 #menu-francaise .btn .container:hover .validation {
-  transform: translate(-85px);
+  transform: translate(-75px);
 }
 #menu-francaise .btn .container:hover p {
-  transform: translate(-55px);
+  transform: translate(-45px);
 }
 #menu-francaise .btn .container:hover i {
   transform: translateX(-30px) rotate(-360deg);
@@ -1408,7 +1409,7 @@ header .palette-container-img-header .img-francaise {
   transition: 0.2s ease-in;
   cursor: pointer;
 }
-#menu-francaise button:active {
+#menu-francaise button:hover {
   background: #ff79da;
   background: linear-gradient(168deg, rgba(255, 121, 217, 0.87) 0%, rgba(147, 86, 220, 0.87) 100%);
   box-shadow: 5px 4px 5px 0px #8b8a8a;
@@ -1462,7 +1463,7 @@ header .palette-container-img-header .img-francaise {
     width: 100%;
   }
   #menu-francaise .repas-francais h4 {
-    font-size: 25px;
+    font-size: 22px;
   }
   #menu-francaise .repas-francais .container {
     width: 400px;
@@ -1653,7 +1654,7 @@ header .palette-container-img-header .img-delice {
   margin-bottom: 50px;
 }
 #menu-delice .palette-menu-titre h3 {
-  font-size: 30px;
+  font-size: 28px;
   font-family: "Shrikhand", cursive;
   font-weight: 400;
 }
@@ -1690,13 +1691,25 @@ header .palette-container-img-header .img-delice {
   width: 100%;
   height: auto;
 }
+#menu-delice .titre-repas {
+  margin-left: 15px;
+}
+#menu-delice .border-bottom-titre {
+  margin-left: 15px;
+}
+#menu-delice .titre-repas-entree {
+  margin-left: 0px;
+}
+#menu-delice .border-entree {
+  margin-left: 0px;
+}
 #menu-delice h4 {
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   margin-bottom: 5px;
 }
 #menu-delice .border-bottom-titre {
-  width: 60px;
+  width: 50px;
   height: 3px;
   background-color: #99e2d0;
   margin-bottom: 20px;
@@ -1709,7 +1722,7 @@ header .palette-container-img-header .img-delice {
 }
 #menu-delice .btn .container {
   width: 355px;
-  height: 85px;
+  height: 75px;
   background: #fff;
   border-radius: 25px;
   margin-bottom: 30px;
@@ -1718,7 +1731,7 @@ header .palette-container-img-header .img-delice {
   box-shadow: 5px 4px 5px 0px #c9c6c6;
 }
 #menu-delice .btn .container h3 {
-  padding-top: 20px;
+  padding-top: 15px;
   padding-left: 20px;
   font-size: 18px;
   font-weight: 700;
@@ -1811,10 +1824,10 @@ header .palette-container-img-header .img-delice {
   transition: 0.3s ease-in-out;
 }
 #menu-delice .btn .container:hover .validation {
-  transform: translate(-85px);
+  transform: translate(-75px);
 }
 #menu-delice .btn .container:hover p {
-  transform: translate(-55px);
+  transform: translate(-45px);
 }
 #menu-delice .btn .container:hover i {
   transform: translateX(-30px) rotate(-360deg);
@@ -1887,7 +1900,7 @@ header .palette-container-img-header .img-delice {
   transition: 0.2s ease-in;
   cursor: pointer;
 }
-#menu-delice button:active {
+#menu-delice button:hover {
   background: #ff79da;
   background: linear-gradient(168deg, rgba(255, 121, 217, 0.87) 0%, rgba(147, 86, 220, 0.87) 100%);
   box-shadow: 5px 4px 5px 0px #8b8a8a;
@@ -1952,7 +1965,7 @@ header .palette-container-img-header .img-delice {
     width: 100%;
   }
   #menu-delice .repas-delice h4 {
-    font-size: 25px;
+    font-size: 22px;
   }
   #menu-delice .repas-delice .container {
     width: 400px;
@@ -2576,6 +2589,7 @@ footer .content-link a {
 
   #presentation {
     margin-bottom: 0px;
+    background: #f2f2f2;
   }
   #presentation .container-choix {
     width: 100%;
